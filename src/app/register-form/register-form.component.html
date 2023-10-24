@@ -1,0 +1,23 @@
+<div class="register-box">
+  <h1 class="title"> {{ title }}</h1>
+  <form [formGroup]="registerForm" (submit)="register()">
+    <div>
+    <label for="Username" id="username" class="username">Username:</label>
+    <input name="username_input" type="text" id="username_input"  class="username_input" maxlength="15" formControlName="username" placeholder="Social Network">
+    </div>
+    <div>
+    <label for="Email" id="email_l" class="email_l">Email:</label>
+    <input name="email_input" type="email" id="email_input" class="email_input" formControlName="email" placeholder="socialnetwork@socialnetwork.com">
+    </div>
+    <div>
+    <label for="Password" id="password" class="password">Password:</label>
+    <input name="password_input" type="password" id="password_input" class="password_input" minlength="8" formControlName="password" placeholder="***************">
+    </div>
+    <div>
+    <label for="Confirm Password" id="confirm-password" class="confirm_password">Confirm Password:</label>
+    <input name="confirm_password" type="password" id="confirm_password_input" class="confirm_password_input" minlength="8" formControlName="confirmpassword" placeholder="***************">
+    </div>
+    </form>
+  <button class="register-submit" type="submit" (click)="register()">Submit</button>
+  <p class="sign-in-site" style="font-family: Arial, Helvetica, sans-serif; color: white;">You have already account? <a (click)="sign_in_site()" class="sign-in-color" style="cursor: pointer;">Sign in</a></p>
+</div>

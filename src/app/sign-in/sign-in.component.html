@@ -1,0 +1,17 @@
+<div class="sign-in-box">
+  <h1 class="title"> {{ title }}</h1>
+  <div class="sign-in">
+    <form [formGroup]="loginForm">
+
+    <label for="Email" id="email" class="email">Email:</label>
+    <input name="email_input" type="email" id="email_input" class="email_input" formControlName="email"  placeholder="socialnetwork@socialnetwork.com">
+
+    <label for="Password" id="password" class="password">Password:</label>
+    <input name="password_input" type="password" id="password_input" class="password_input" minlength="8" formControlName="password" placeholder="***************">
+  </form>
+  </div>
+
+  <button class="sign-in-submit" (click)="sign_in()">Submit</button>
+  <p class="register-site" style="font-family: Arial, Helvetica, sans-serif; color: white;">You dont have an account? <a (click)="register_site()" class="register-color" style="cursor: pointer;">Register</a></p>
+
+</div>

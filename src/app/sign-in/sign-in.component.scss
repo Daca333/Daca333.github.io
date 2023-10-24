@@ -1,0 +1,83 @@
+.sign-in-box {
+  width: 350px;
+  height: 600px;
+  background-color: white;
+  border: none;
+  border-radius: 10px;
+  position: relative;
+  margin: auto;
+  background: url("https://doc-08-2c-docs.googleusercontent.com/docs/securesc/68c90smiglihng9534mvqmq1946dmis5/fo0picsp1nhiucmc0l25s29respgpr4j/1631524275000/03522360960922298374/03522360960922298374/1Sx0jhdpEpnNIydS4rnN4kHSJtU1EyWka?e=view&authuser=0&nonce=gcrocepgbb17m&user=03522360960922298374&hash=tfhgbs86ka6divo3llbvp93mg4csvb38") no-repeat center/ cover;
+  top: 200px;
+  box-shadow: 5px 20px 50px #000;
+  overflow: hidden;
+}
+
+.title {
+  color: white;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  position: relative;
+  top: auto;
+}
+
+.email {
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  position: relative;
+  left: 15px;
+  top: 73px;
+}
+
+.email_input {
+  width: 300px;
+  height: 35px;
+  position: relative;
+  top: 105px;
+  right: 30px;
+  text-align: center;
+  border: none;
+  border-radius: 6px;
+}
+
+.password {
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  position: relative;
+  right: -20px;
+  top: 120px;
+}
+
+.password_input {
+  width: 300px;
+  height: 35px;
+  position: relative;
+  top: 125px;
+  right: -15px;
+  text-align: center;
+  position: relative;
+  border: none;
+  border-radius: 6px;
+}
+
+.register-site {
+  position: relative;
+  top: 335px;
+  text-align: center;
+}
+
+.register-color {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  color: rgba(0, 26, 255, 0.726);
+}
+
+.sign-in-submit {
+  width: 130px;
+  height: 40px;
+  border: none;
+  border-radius: 5px;
+  position: relative;
+  top: 250px;
+  left: 105px;
+}

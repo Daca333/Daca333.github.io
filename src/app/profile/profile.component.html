@@ -1,0 +1,20 @@
+<app-header></app-header>
+<div class="profile_page">
+  <div class="profile_box_main">
+    <h1>Username: {{ username }}</h1>
+    <img src="https://t4.ftcdn.net/jpg/02/15/84/43/360_F_215844325_ttX9YiIIyeaR7Ne6EaLLjMAmy4GvPC69.jpg" alt="profile_picture" class="profile_picture">
+    <fieldset class="description_box">
+     <p class="description"> Description: {{ description }} </p>
+    </fieldset>
+    <fieldset class="likes_friends_messages">
+      <span class="likes">Likes: {{ likes }}</span>
+      <p class="friends">Friends: {{ friends }}</p>
+      <p class="sent">Sent Messages: {{ total_messages }}</p>
+      <button class="like_button" (click)="add_like()">Like</button>
+      <button class="share_button">Share</button>
+      <button class="friend_request">Send Friend Request</button>
+    </fieldset>
+
+  </div>
+
+</div>

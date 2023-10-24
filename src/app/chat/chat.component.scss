@@ -1,0 +1,107 @@
+.messages-box {
+  background: black;
+  overflow: hidden;
+  opacity: 0.5;
+  width: 1700px;
+  height: 1120px;
+  position: relative;
+  top: -5px;
+  left: 40px;
+  border-radius: 25px;
+}
+
+.open-chat {
+  width: 1680px;
+  height: 1140px;
+}
+
+.chats-box {
+  background: black;
+  overflow: hidden;
+  opacity: 0.5;
+  width: 600px;
+  height: 1120px;
+  position: relative;
+  left: 1850px;
+  bottom: 1125px;
+  border-radius: 25px;
+}
+
+.background-chats {
+  background: white;
+  width: 580px;
+  height: 1100px;
+  position: relative;
+  top: 10px;
+  left: 10px;
+  border-radius: 20px;
+}
+
+.background-open-chat {
+  background-color: white;
+  width: 1680px;
+  height: 1100px;
+  position: relative;
+  top: 10px;
+  left: 10px;
+  border-radius: 20px;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.input_message {
+  width: 1200px;
+  height: 40px;
+  border-radius: 25px;
+  font-size: 15px;
+  position: relative;
+  top: 10px;
+  left: 10px;
+}
+
+.send_message {
+  height: 40px;
+  width: 100px;
+  border-radius: 10px;
+  position: relative;
+  top: 10px;
+  left: 130px;
+}
+
+.chat-border {
+  width: 1630px;
+  height: 1060px;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  border-radius: 15px;
+}
+
+.chats-border {
+  height: 1060px;
+  width: 530px;
+  position: absolute;
+  left: 10px;
+  top: 10px;
+  border-radius: 15px;
+}
+
+.input-send-box {
+  height: 75px;
+  width: 1630px;
+  position: absolute;
+  top: 983px;
+  left: -4px;
+}
+
+.input-send-border {
+  height: 75px;
+  width: 1630px;
+  border-radius: 15px;
+}
+
+

@@ -1,0 +1,92 @@
+.profile_box_main {
+  width: 2540px;
+  height: 350px;
+  background: black;
+}
+
+h1 {
+  color: white;
+  position: relative;
+  top: 10px;
+  left: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+img {
+  width: 250px;
+  height: 250px;
+  position: relative;
+  left: 20px;
+  top: 20px;
+}
+
+.description_box {
+  width: 1750px;
+  height: 230px;
+  position: relative;
+  left: 310px;
+  bottom: 250px;
+}
+
+.description {
+  color:  white;
+  position: relative;
+  font-family: Arial, Helvetica, sans-serif;
+  top: -5px;
+}
+
+.likes_friends_messages {
+  width: 350px;
+  height: 230px;
+  position: relative;
+  left: 2100px;
+  bottom: 500px;
+}
+
+.likes {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+}
+
+.friends {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+}
+
+.sent{
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+}
+
+.like_button {
+  width: 65px;
+  height: 25px;
+  border: none;
+  border-radius: 5px;
+  position: relative;
+  bottom: 10px;
+  left: 0px;
+}
+
+.share_button {
+  width: 65px;
+  height: 25px;
+  border: none;
+  border-radius: 5px;
+  position: relative;
+  bottom: 10px;
+  left: 10px;
+}
+
+.friend_request {
+  width: 175px;
+  height: 25px;
+  border: none;
+  border-radius: 5px;
+  position: relative;
+  bottom: 10px;
+  left: 20px;
+}
