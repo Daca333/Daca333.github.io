@@ -1,0 +1,445 @@
+.settings_box {
+  width: 1500px;
+  height: 900px;
+  background-color: white;
+  border: none;
+  border-radius: 10px;
+  position: sticky;
+  margin: auto;
+  background: url("https://doc-08-2c-docs.googleusercontent.com/docs/securesc/68c90smiglihng9534mvqmq1946dmis5/fo0picsp1nhiucmc0l25s29respgpr4j/1631524275000/03522360960922298374/03522360960922298374/1Sx0jhdpEpnNIydS4rnN4kHSJtU1EyWka?e=view&authuser=0&nonce=gcrocepgbb17m&user=03522360960922298374&hash=tfhgbs86ka6divo3llbvp93mg4csvb38") no-repeat center/ cover;
+  top: 200px;
+  box-shadow: 5px 20px 50px #000;
+  overflow: hidden;
+}
+
+.title {
+  color: white;
+  text-align: center;
+  position: relative;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav_settings {
+  display: flex;
+}
+
+.go_back {
+  width: 130px;
+  height: 40px;
+  border: none;
+  border-radius: 10px;
+  position: absolute ;
+  top: 800px;
+  left: 680px;
+  color: black;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+/* CHANGE PASSWORD */
+
+.change_pass {
+  width: 750px;
+  height: 700px;
+  position: relative;
+  left: 350px;
+}
+
+.your_pass {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  position: relative;
+  top: 100px;
+  left: 150px;
+}
+
+.new_pass {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  position: relative;
+  top: 170px;
+  right: 280px;
+}
+
+.con_new_pass {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  position: relative;
+  top: 195px;
+  right: 225px;
+}
+
+.change_pass_old {
+  height: 35px;
+  width: 300px;
+  border-radius: 7px;
+  position: relative;
+  top: 100px;
+  left: 170px;
+}
+
+.change_pass_new {
+  height: 35px;
+  width: 300px;
+  border-radius: 7px;
+  position: relative;
+  top: 125px;
+  left: 290px;
+}
+
+.change_pass_new_again {
+  height: 35px;
+  width: 300px;
+  border-radius: 7px;
+  position: relative;
+  top: 150px;
+  left: 290px;
+}
+
+.change_pass_nav {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  position: relative;
+  left: 40px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.change_pass_submit {
+  width: 130px;
+  height: 40px;
+  border: none;
+  border-radius: 10px;
+  position:relative;
+  top: 250px;
+  left: 60px;
+  color: black;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+.change_pass_submit:hover {
+  background: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  box-shadow: 0 0 5px rgb(255, 255, 255), 0 0 20px rgb(255, 255, 255), 0 0 40px rgb(255, 255, 255), 0 0 150px rgb(255, 255, 255);
+}
+
+
+/* CHANGE EMAIL*/
+
+.change_email {
+  width: 750px;
+  height: 700px;
+  position: relative;
+  left: 350px;
+}
+
+.change_email_pass {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  position: relative;
+  top: 100px;
+  left: 150px;
+}
+
+.your_email {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  position: relative;
+  top: 170px;
+  right: 245px;
+}
+
+.new_email {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  position: relative;
+  top: 195px;
+  right: 123px;
+}
+
+.change_email_pass_input {
+  height: 35px;
+  width: 300px;
+  border-radius: 7px;
+  position: relative;
+  top: 100px;
+  left: 170px;
+}
+
+.your_email_input {
+  height: 35px;
+  width: 300px;
+  border-radius: 7px;
+  position: relative;
+  top: 125px;
+  left: 290px;
+}
+
+.new_email_input {
+  height: 35px;
+  width: 300px;
+  border-radius: 7px;
+  position: relative;
+  top: 190px;
+  right: 103px;
+}
+
+.new_email_submit {
+  width: 130px;
+  height: 40px;
+  border: none;
+  border-radius: 10px;
+  position:relative;
+  top: 250px;
+  left: 368px;
+  color: black;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+.new_email_submit:hover {
+  background: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  box-shadow: 0 0 5px rgb(255, 255, 255), 0 0 20px rgb(255, 255, 255), 0 0 40px rgb(255, 255, 255), 0 0 150px rgb(255, 255, 255);
+}
+
+.change_email_nav {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  position: relative;
+  left: 80px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+/* CHANGE USERNAME */
+
+.change-username {
+  width: 750px;
+  height: 700px;
+  position: relative;
+  left: 350px;
+}
+
+.change-username-nav {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  position: relative;
+  left: 120px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.change_username_pass {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  position: relative;
+  top: 100px;
+  left: 150px;
+}
+
+.new_username {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  position: relative;
+  top: 170px;
+  right: 280px;
+}
+
+.change_username_pass_input {
+  height: 35px;
+  width: 300px;
+  border-radius: 7px;
+  position: relative;
+  top: 100px;
+  left: 170px;
+}
+
+.new_username_input {
+  height: 35px;
+  width: 300px;
+  border-radius: 7px;
+  position: relative;
+  top: 125px;
+  left: 290px;
+}
+
+.new_username_submit {
+  width: 130px;
+  height: 40px;
+  border: none;
+  border-radius: 10px;
+  position:relative;
+  top: 250px;
+  left: 60px;
+  color: black;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+.new_username_submit:hover {
+  background: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  box-shadow: 0 0 5px rgb(255, 255, 255), 0 0 20px rgb(255, 255, 255), 0 0 40px rgb(255, 255, 255), 0 0 150px rgb(255, 255, 255);
+}
+
+/* VERIFY EMAIL */
+
+.verify_email_nav {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  position: relative;
+  left: 200px;
+  cursor: pointer;
+}
+
+
+/* ADD PHONE NUMBER */
+
+.add_phone_number_nav {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  position: relative;
+  left: 240px;
+  cursor: pointer;
+}
+
+
+/* DELETE ACC */
+
+.delete-acc-nav {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  position: relative;
+  left: 280px;
+  cursor: pointer;
+}
+
+.delete-acc {
+  width: 750px;
+  height: 700px;
+  position: relative;
+  left: 350px;
+}
+
+.delete_pass_l {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  position: relative;
+  top: 170px;
+  left: 100px;
+}
+
+.delete_pass_input {
+  height: 35px;
+  width: 300px;
+  border-radius: 7px;
+  position: relative;
+  top: 170px;
+  left: 150px;
+}
+
+.delete-acc-warning {
+  text-align: center;
+  color: yellow;
+}
+
+.delete-acc-submit {
+  width: 130px;
+  height: 40px;
+  border: none;
+  border-radius: 10px;
+  position:relative;
+  top: 250px;
+  left: 350px;
+  color: black;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+/* CHANGE DESCRIPTION */
+
+.change_description_nav {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  position: relative;
+  left: 160px;
+  cursor: pointer;
+}
+
+.change_description {
+  width: 750px;
+  height: 700px;
+  position: relative;
+  left: 350px;
+}
+
+.change_description_l {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  position: relative;
+  top: 150px;
+  left: 120px;
+}
+
+.change_description_input {
+  height: 35px;
+  width: 300px;
+  border-radius: 7px;
+  position: relative;
+  top: 147px;
+  left: 150px;
+}
+
+.change_description_submit {
+  width: 130px;
+  height: 40px;
+  border: none;
+  border-radius: 10px;
+  position:relative;
+  top: 250px;
+  right: 90px;
+  color: black;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+.change_description_submit:hover {
+  background: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  box-shadow: 0 0 5px rgb(255, 255, 255), 0 0 20px rgb(255, 255, 255), 0 0 40px rgb(255, 255, 255), 0 0 150px rgb(255, 255, 255);
+}

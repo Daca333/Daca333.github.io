@@ -1,25 +1,30 @@
 <app-header></app-header>
-<div>
-  <h1>{{ title }}</h1>
+<router-outlet></router-outlet>
+<h1>{{ title }}</h1>
+<div [formGroup]="form">
   <div class="messages-box">
     <div class="background-open-chat">
     <div class="open-chat">
-
-
-      <fieldset class="chat-border">
+      <fieldset class="chat-border"></fieldset>
+      <div id="history">
+        <div *ngFor="let chat of chats" class="mb">
+              <span><span class="user_name">{{chat.username}}</span> (Sent: {{chat.timestamp | date:'long'}})</span>
+              <p>{{chat.message}}</p>
+        </div>
+      </div>
+      <form id="message" style="color: white;" [formGroup]="form" (ngSubmit)="onChatSubmit(form.value)"  class="fw">
       <div class="input-send-box">
         <fieldset class="input-send-border">
-      <input type="text" class="input_message" id="input_message">
-      <button class="send_message" id="send_message">Send</button>
+      <input type="text" class="input_message" id="input_message" formControlName="message">
+      <button class="send_message" id="send_message" type="submit">Send</button>
         </fieldset>
+        </div>
+        </form>
     </div>
-    </fieldset>
   </div>
 
   </div>
 
-
-  </div>
   <div class="chats-box">
     <div class="background-chats">
     <fieldset class="chats-border">

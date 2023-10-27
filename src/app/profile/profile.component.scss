@@ -13,10 +13,10 @@ h1 {
 }
 
 img {
-  width: 250px;
-  height: 250px;
+  max-width: 250px;
+  max-height: 250px;
   position: relative;
-  left: 20px;
+  left: 15px;
   top: 20px;
 }
 
@@ -69,6 +69,7 @@ img {
   position: relative;
   bottom: 10px;
   left: 0px;
+  font-weight: bold;
 }
 
 .share_button {
@@ -79,6 +80,7 @@ img {
   position: relative;
   bottom: 10px;
   left: 10px;
+  font-weight: bold;
 }
 
 .friend_request {
@@ -89,4 +91,5 @@ img {
   position: relative;
   bottom: 10px;
   left: 20px;
+  font-weight: bold;
 }

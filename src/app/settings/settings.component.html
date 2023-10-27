@@ -1,0 +1,127 @@
+<div class="settings_box">
+  <div class="title">
+    <h1 class="title">{{ title }}</h1>
+  </div>
+  <nav class="nav_settings">
+    <!-- NAV FOR OPTIONS -->
+    <label for="" class="change_pass_nav" (click)="changePass = !changePass; changeEmail = false; changeUsername = false; changeDescription = false; verifyEmail = false; addPhone = false;deleteAcc = false;"
+      >Change Password</label
+    >
+    <label for="" class="change_email_nav" (click)="changeEmail = !changeEmail; changePass = false; changeUsername = false; changeDescription = false; verifyEmail = false;addPhone = false;deleteAcc = false;"
+      >Change Email</label
+    >
+    <label
+      for=""
+      class="change-username-nav"
+      (click)="changeUsername = !changeUsername; changeEmail = false; changeDescription = false; changePass = false; verifyEmail = false;addPhone = false; deleteAcc = false;"
+      >Change Username</label
+    >
+    <label
+      for=""
+      class="change_description_nav"
+      (click)="changeDescription = !changeDescription; changePass = false; changeUsername = false; changeEmail = false; verifyEmail = false;addPhone = false;deleteAcc = false;"
+      >Change Description</label
+    >
+    <label for="" class="verify_email_nav" (click)="verifyEmail = !verifyEmail; changeEmail = false; changeDescription = false; changePass = false; changeUsername = false;addPhone = false;deleteAcc = false;">Verify Email</label>
+    <label for="" class="add_phone_number_nav" (click)="addPhone = !addPhone; changeEmail = false; changeDescription = false; changePass = false; changeUsername = false; verifyEmail = false;deleteAcc = false;">Add Phone Number</label>
+    <label for="" class="delete-acc-nav" (click)="deleteAcc = !deleteAcc;changeEmail = false; changeDescription = false; changePass = false; changeUsername = false; verifyEmail = false; addPhone = false;">Delete Account</label>
+  </nav>
+
+  <div class="change_pass" *ngIf="changePass">
+    <!-- CHANGE PASS -->
+    <label for=""  class="your_pass">Your Password:</label>
+    <input type="password" class="change_pass_old"  />
+    <label for="" class="new_pass">New Password:</label>
+    <input type="password" class="change_pass_new" [(ngModel)]="pass_pass" />
+    <label for="" class="con_new_pass"
+      >Confirm New Password:</label
+    >
+    <input type="password" class="change_pass_new_again" [(ngModel)]="con_pass_pass" />
+
+    <button  type="submit" class="change_pass_submit" >
+      Submit
+    </button>
+  </div>
+
+  <div class="change_email"  *ngIf="changeEmail">
+    <!-- CHANGE EMAIL -->
+
+    <label for="" class="change_email_pass"
+      >Your Password:</label
+    >
+    <input
+      type="password"
+      class="change_email_pass_input" [(ngModel)]="pass_email"
+    />
+    <label for="" class="your_email">Your Email:</label>
+    <input type="email" class="your_email_input" />
+    <label for="" class="new_email" >New Email:</label>
+    <input type="email" class="new_email_input" [(ngModel)]="newemail" />
+
+    <button class="new_email_submit" type="submit" (click)="change_email()">
+      Submit
+    </button>
+  </div>
+
+  <div class="change-username" *ngIf="changeUsername">
+    <!-- CHANGE DISPLAY NAME -->
+
+    <label for="" class="change_username_pass"
+      >Your Password:</label
+    >
+    <input
+      type="password"
+      class="change_username_pass_input"
+      [(ngModel)]="pass_user"
+    />
+    <label for="" class="new_username"
+      >New Username:</label
+    >
+    <input type="text" class="new_username_input" [(ngModel)]="new_username" />
+
+    <button class="new_username_submit" (click)="change_username()">Submit</button>
+  </div>
+
+  <div class="change_description" *ngIf="changeDescription">
+    <!-- CHANGE DESCRIPTION -->
+    <label for="" class="change_description_l"
+      >Change Description:</label
+    >
+    <input
+      type="txt"
+      class="change_description_input"
+      [(ngModel)]="change_description_i"
+    />
+
+    <button
+      type="submit"
+      class="change_description_submit"
+      (click)="change_desc()"
+    >
+      Submit
+    </button>
+  </div>
+
+  <div class="verify_email" *ngIf="verifyEmail">
+    <!-- VERIFY EMAIL -->
+      <h1 style="color: white; text-align: center; position: relative; top: 50px;">SOON...</h1>
+  </div>
+
+  <div class="add_phone_number" *ngIf="addPhone">
+    <!-- ADD PHONE NUMBER -->
+    <h1 style="color: white; text-align: center; position: relative; top: 50px;">SOON...</h1>
+  </div>
+
+  <div class="delete-acc" *ngIf="deleteAcc">
+    <!-- DELETE ACCOUNT -->
+    <label for="" class="delete_pass_l">Your Password:</label>
+    <input type="password" class="delete_pass_input">
+    <p class="delete-acc-warning">Your whole data will be deleted! You sure that you want ot delete your account?</p>
+    <button class="delete-acc-submit" (click)="delete_acc()">Submit</button>
+  </div>
+
+  <div>
+    <!-- GO BACK TO MAIN PAGE-->
+    <button class="go_back" (click)="goback()">Go Back</button>
+  </div>
+</div>

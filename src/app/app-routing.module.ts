@@ -6,6 +6,7 @@ import { SignedInPageComponent } from './signed-in-page/signed-in-page.component
 import { InfoComponent } from './info/info.component';
 import { ProfileComponent } from './profile/profile.component';
 import { ChatComponent } from './chat/chat.component';
+import { SettingsComponent } from './settings/settings.component';
 
 const routes: Routes = [
   {path: '', pathMatch: 'full', component: SignInComponent},
@@ -15,6 +16,7 @@ const routes: Routes = [
   {path: 'info', component: InfoComponent},
   {path: 'profile', component: ProfileComponent},
   {path: 'chat', component: ChatComponent},
+  {path: 'settings', component: SettingsComponent},
 
 ];
 
